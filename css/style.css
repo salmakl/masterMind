@@ -1,0 +1,73 @@
+.formulaire{
+  width: 30%;
+  margin: auto;
+  margin-top: 65px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px;
+  font-family: "Century Gothic";
+  font-size: 1.2em;
+  position: relative;
+  padding-bottom: 15px;
+}
+.formulaire1{
+  width: 60%;
+  margin: auto;
+  margin-top: 65px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px;
+  font-family: "Century Gothic";
+  font-size: 1.2em;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.bouton{
+  /*width: 20%;*/
+  background-color: firebrick;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  position: relative;
+}
+h1{
+  color:firebrick;
+  font-family: "Century Gothic";
+}
+h1.msg{
+  color:red;
+  font-family: "Century Gothic";
+}
+
+body{
+  background-image: url(../images.jpg);
+  background-repeat: no-repeat;
+  /*background-size: cover;*/ 
+  background-attachment: fixed;
+  background-position: bottom right;
+
+  }
+
+table {
+border: medium solid #000000;
+width: 50%;
+}
+td,th {
+border: thin solid red;
+width: 50%;
+}
+ 
+h3,h4{
+  color: #d30804;
+}
+.formulaire input[type=text]{
+  margin-right: 40px;
+  /*width: 135px;*/
+}
+.formulaire1 label{
+margin-right:30px; 
+}
